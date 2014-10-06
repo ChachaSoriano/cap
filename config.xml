@@ -14,7 +14,7 @@
         </gap:platforms>
 
         <icon src="images/icon.png" gap:role="default" />
-        <preference name="phonegap-version" value="3.5.0" />
+        <preference name="phonegap-version" value="3.1.0" />
         
         <access origin="*" subdomains="true" />
         <access uri="*" subdomains="true" />
