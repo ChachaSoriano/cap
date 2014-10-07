@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ceasaccesspoint"  version = "1.2.3" versionCode = "18" >
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="teamCache"  version = "1.0.0" versionCode = "1" >
 
 
         <name>CEAS Access Point</name>
         <description>A cross mobile application portal for Gordon College, College of Education, Arts and Sciences</description>
-        <author>Team Cache</author>        
+        <author>Team Cache</author>
 		<gap:platforms>
                 <gap:platform name="ios" />
                 <gap:platform name="android" />
@@ -13,12 +13,12 @@
                 <gap:platform name="blackberry" project="widgets"/>
         </gap:platforms>
 
-        <icon src="images/icon.png" gap:role="default" />
+        <icon src="images/cap1.png" gap:role="default" />
         <preference name="phonegap-version" value="3.1.0" />
         
         <access origin="*" subdomains="true" />
         <access uri="*" subdomains="true" />
-         <access uri="http://mathmaster.comoj.com/topscore.php" subdomains="true" />
+                 <access uri="*" subdomains="true" />
         <feature name="http://api.phonegap.com/1.0/network"/>
         <feature name="InAppBrowser">
     <param name="android-package" value="org.apache.cordova.InAppBrowser" />
@@ -29,5 +29,4 @@
         <preference name="fullscreen" value="true" />
         <preference name="target-device" value="universal" />
 
-	
 </widget>
